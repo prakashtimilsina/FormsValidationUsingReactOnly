@@ -1,0 +1,28 @@
+.formInput{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+}
+
+input{
+    padding: 15px;
+    margin: 10px 0px;
+    border-radius: 6px;
+    border: 1px solid purple;
+}
+
+label{
+    font-size: 14px;
+    color: purple;
+}
+
+span{
+    font-size: 12px;
+    padding: 4px;
+    color: red;
+    display: none;
+}
+
+input:invalid ~ span{
+    display: block;
+}
